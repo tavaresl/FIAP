@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	
+	<!-- Lib stylesheets -->
+	<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+	<!-- /Lib stylesheets -->
+
+	<style>
+		fieldset, label {
+			display: block;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="jumbotron">
+			<h1 class="text-center">Safadômetro</h1>
+			<div class="row">
+				<section class="col-md-6">
+					<h2>Wesley Safadão</h2>
+					<p>A trajetória do artista começou em 2007, quando houve a profissionalização de um trabalho até então familiar. A banda foi criada pela família de Wesley Safadão e reunia seus irmãos e primos – todos movidos a muitos sonhos. Apaixonados pela música investiram suas pequenas economias e buscaram ajuda onde não tinham para seguir com o projeto da Banda Garota Safada – que aos poucos foi ganhando notoriedade no mercado artístico da cidade de Fortaleza, no Ceará. Com uma batida mais acelerada e com um carisma que só Wesley Safadão possui, foi ganhando cada vez mais espaço no Nordeste, conquistando a região, e em seguida fazendo o mesmo no Norte. Hoje o artista e sua banda possuem uma média mensal de 25 apresentações.</p>
+					<p>Em 2015 Wesley lançou o single "Camarote", que ficou mais de 490 dias entre as cem canções mais compradas do iTunes.[6] O videoclipe da canção já soma mais de 140 milhões de visualizações no YouTube. No mesmo ano, o cantor fez uma participação especial na música "Aquele 1%" da dupla Marcos e Belutti e gravou um clipe com Ivete Sangalo intitulado "Parece Que O Vento", que está no seu DVD Ao Vivo em Brasília, lançado em novembro de 2015.</p>
+				</section>
+				<section class="col-md-6">
+					<h2>Calcule seu nível de safadeza!</h2>
+					<form id="form"
+						<fieldset>
+							<label>
+								Dia
+								<input type="text" id="dia" class="form-control">
+							</label>
+						</fieldset>
+						<fieldset>
+							<label>
+								Mês
+								<input type="text" id="mes" class="form-control">
+							</label>
+						</fieldset>
+						<fieldset>
+							<label>
+								Ano
+								<input type="text" id="ano" class="form-control">
+							</label>
+						</fieldset>
+						<button type="button" onmousedown="calcular()" class="btn btn-block btn-primary">Calular!</button>
+					</form>
+					<div id="area-resultado" class="hidden">
+						<h3>Resultado!</h3>
+						<p>Você é <span class="text-danger" id="safado"></span>% safado e <span class="text-info" id="anjo"></span>% anjo.</p>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+
+	<!-- Lib scripts -->
+	<script src="lib/jquery/jquery.min.js"></script>
+	<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+	<!-- /Lib scripts -->
+	
+	<script src="script/src/script.js"></script>
+</body>
+</html>
