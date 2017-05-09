@@ -1,2 +1,2 @@
-# FIAP
-Repositório contendo o material desenvolvido durante as aulas e estudos.
+# Optimization Technology
+_Branch_ com projetos desenvolvidos em aula e para estudo.
