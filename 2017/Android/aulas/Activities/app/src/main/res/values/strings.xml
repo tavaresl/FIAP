@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">Activities</string>
-    <string name="senha">Senha</string>
-    <string name="email">Email</string>
-    <string name="logar">Logar</string>
-    <string name="erro_login">Email ou senha inválido.</string>
-    <string name="voltar">Voltar</string>
-</resources>
